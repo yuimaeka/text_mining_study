@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="tag_cloud.css">
+	</head>
+	<script src="tag_cloud.js"></script>
+
+	<body>
+		<div id="tag-cloud" style="float:center;border:1px solid green;margin:auto;"> 

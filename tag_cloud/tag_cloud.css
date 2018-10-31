@@ -1,0 +1,69 @@
+@CHARSET "utf-8";
+/**
+ * 著者：zanmai.net
+ * ご利用する場合、ご自分のサイトに　http://zanmai.netのリンクをお貼ってお願いします。(Copyrights@zanmai.net)
+ * JSの知識があれば、枠の大きさをご自由に変更してください。
+ */
+body {
+	float:center;
+	text-align:center;
+}
+#tag-cloud {
+	position:relative; 
+	width:500px; 
+	height:500px; 
+	margin: 0; 
+	float:center;
+	text-align:center;
+	border:1px solid red;
+}
+#tag-cloud a {
+	position:absolute; 
+	top:0px; 
+	left:0px; 
+	font-family:"ＭＳ Ｐゴシック",Arial,Microsoft YaHei; 
+	color:#fff; 
+	font-weight:bold; 
+	text-decoration:none; 
+	padding: 3px 6px; 
+}
+#tag-cloud a:hover {
+	border: 1px solid #eee; 
+	background: #7cfc00; 
+}
+#tag-cloud .s1 {
+	color:blue;
+	font-size: 200%;
+	}
+#tag-cloud .red {
+	color:red;
+	}
+#tag-cloud .orange {
+	color:orange;
+}
+#tag-cloud .yellow {
+	color:yellow;
+}
+#tag-cloud .green {
+	color:green;
+}
+#tag-cloud .blue {
+	color:blue;
+	}
+#tag-cloud .indigo {
+	color:indigo;
+}
+
+#tag-cloud .violet {
+	color:violet;
+}
+p { 
+	font: 16px "ＭＳ Ｐゴシック"; 
+	text-align: center; color: #ba0c0c; 
+}
+p a { 
+	font-size: 14px; color: #ba0c0c; 
+}
+p a:hover { 
+	color: red; 
+}
